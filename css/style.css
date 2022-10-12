@@ -1,0 +1,208 @@
+body {
+    background-color: #FFF5E1;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    color: #25316D;
+    padding: 2% 7%;
+}
+
+h2 {
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    padding: 10% 7%;
+    font-size: 1.5rem;
+}
+
+a {
+    color: #181818;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E6B325;
+}
+
+img {
+    width: 35%;
+    padding: 2% 2%;
+}
+
+.profile-pic {
+    width: 46%;
+    position: absolute;
+    right: 8%;
+    top: 59%;
+}
+
+.top-container {
+    background-color: #E6B325;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: 2% 7%;
+}
+
+.middle-container {
+    text-align: center;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    color: #fff;
+    background-color: #E6B325;
+    font-size: 2rem;
+    padding: 5% 7%;
+}
+
+.bottom-container {
+    text-align: center;
+    color: #fff;
+    background-color: #E6B325;
+    font-size: 1rem;
+    padding: 1.3% 7%;
+}
+
+.list-item {
+    font-size: 1.3rem;
+    padding: 0.5% 7%;
+}
+
+.intro {
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+    color: #25316D;
+    font-size: 2rem;
+    padding: 0.5% 7%;
+}
+
+.intro-img1 {
+    width: 35%;
+    padding: 0.5% 7%;
+}
+
+.intro-img2 {
+    width: 35%;
+    padding: 0.5% 1.5%;
+}
+
+.Phasellus-p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    padding: 2% 7%;
+}
+
+.footer {
+    font-size: 1rem;
+    text-align: center;
+    color: #25316D;  
+    padding: 9% 15%;  
+}
+
+.btn1 {
+    position: absolute;
+    left: 6%;
+    background: #fff;
+    background-image: -webkit-linear-gradient(top, #2C3333, #2C3333);
+    background-image: -moz-linear-gradient(top, #2C3333, #2C3333);
+    background-image: -ms-linear-gradient(top, #2C3333, #2C3333);
+    background-image: -o-linear-gradient(top, #2C3333, #2C3333);
+    background-image: linear-gradient(to bottom, #2C3333, #2C3333);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 10px;
+    font-family: 'merriweather', serif;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+ }
+  
+  .btn1:hover {
+    background: #3D3C42;
+    background-image: -webkit-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: -moz-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: -ms-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: -o-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: linear-gradient(to bottom, #3D3C42, #3D3C42);
+    text-decoration: none;
+  }
+
+  .btn2 {
+    position: absolute;
+    left: 50%;
+    background: #fff;
+    background-image: -webkit-linear-gradient(top, #2C3333, #2C3333);
+    background-image: -moz-linear-gradient(top, #2C3333, #2C3333);
+    background-image: -ms-linear-gradient(top, #2C3333, #2C3333);
+    background-image: -o-linear-gradient(top, #2C3333, #2C3333);
+    background-image: linear-gradient(to bottom, #2C3333, #2C3333);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 10px;
+    font-family: 'merriweather', serif;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: #3D3C42;
+    background-image: -webkit-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: -moz-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: -ms-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: -o-linear-gradient(top, #3D3C42, #3D3C42);
+    background-image: linear-gradient(to bottom, #3D3C42, #3D3C42);
+    text-decoration: none;
+  }
+
+  @media (min-width: 1200px) {
+    h1 {
+        font-size: 3rem;
+        font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+        color: #25316D;
+        padding: 1% 7%;
+    }
+
+    h2 {
+        font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+        padding: 5% 7%;
+        font-size: 2.3rem;
+    }
+
+    .middle-container {
+        text-align: center;
+        font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+        color: #fff;
+        background-color: #E6B325;
+        font-size: 2.3rem;
+        padding: 3% 7%;
+    }
+
+    .profile-pic {
+        width: 21%;
+        position: absolute;
+        right: 18%;
+        top: 44%;
+    }
+
+    .intro {
+        font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+        color: #25316D;
+        font-size: 2.3rem;
+        padding: 0.5% 7%;
+    }
+
+    .Phasellus-p {
+        line-height: 1.5;
+        font-size: 1.3rem;
+        padding: 0.3% 7%;
+        line-height: 2;
+    }
+
+    .footer {
+        font-size: 1rem;
+        text-align: center;
+        color: #25316D;  
+        padding: 5% 15%;  
+    }
+  }
